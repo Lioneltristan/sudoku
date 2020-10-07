@@ -1,5 +1,5 @@
-# sudoku
-I have built a program to identify a sudoku grid from almost any background.
+# sudoku identifier and solver
+I have built a program to identify and solve a sudoku grid from almost any background.
 
 Here is an example of a raw image:
 
