@@ -2,12 +2,15 @@
 I have built a program to identify a sudoku grid from almost any background.
 
 Here is an example of a raw image:
+
 ![](raw.png)
 
 After some preprocessing using opencv we first find the outline of the sudoku grid with edge detection which gives us this:
+
 ![](outline.png)
 
 We can then easily transform it and zoom in
+
 ![](grid.png)
 
 to display the grid only.
