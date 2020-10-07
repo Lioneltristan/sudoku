@@ -3,15 +3,15 @@ I have built a program to identify a sudoku grid from almost any background.
 
 Here is an example of a raw image:
 
-![](raw.png)
+![](/figures/raw.png)
 
 After some preprocessing using opencv we first find the outline of the sudoku grid with edge detection which gives us this:
 
-![](outline.png)
+![](/figures/outline.png)
 
 We can then easily transform it and zoom in
 
-![](grid.png)
+![](/figures/grid.png)
 
 to display the grid only.
 
