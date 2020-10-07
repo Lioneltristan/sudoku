@@ -16,7 +16,7 @@ We can then easily transform it and zoom in
 to display the grid only.
 
 We then divide the grid in its 81 cells and look at each cell to find out if it has a number in it or not. 
-If it does, we use a conv-net model that we trained on the mnist dataset as well as some generated digits from given sudokus to identify the numbers inside the grid.
+If it does, we use a conv-net model that we trained on the mnist dataset as well as some generated digits from given sudokus to identify the numbers inside the grid. We had to generate a few more digits, because the mnist dataset is mainly trained on "american ones", being just a straight line, whereas the typed digits have a 1 with a small "roof". This results in a lot of confusion for the algorithm regarding 1s and 7s from the grid.
 We can now convert the grid into a numpy array.
 
 | 0 3 9 | 1 0 0 | 0 0 0 |
