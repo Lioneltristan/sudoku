@@ -1,5 +1,9 @@
 # sudoku identifier and solver
-I have built a program to identify and solve a sudoku grid from almost any background.
+I have built a program to identify and solve a sudoku grid from almost any background. 
+
+You can try it out here: https://lionelssudoku.herokuapp.com/
+It still sometimes confuses the numbers, particularly the 1s and 7s, because the algorithm has been trained on north-american handwritten digits. 
+I will fix this when I have time to collect a seperate dataset and retrain the algorithm.
 
 Here is an example of a raw image:
 
@@ -28,5 +32,3 @@ Alternatively you can use py-sudoku to solve it
 
 
 In future updates I will use a dataset different to mnist to train the algorithm. It still has some issues with a few of the numbers
-
-
