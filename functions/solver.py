@@ -74,8 +74,23 @@ def solve(sudoku):
     """
     solved = copy.deepcopy(sudoku)
     if backtrack(solved) == True:
-        print("It worked:")
-        return solved
+        worked = True
+        return solved, worked
     else:
-        print("didn't work :(")
-        return sudoku
+        worked = False
+        return sudoku, worked
+
+def markdown_grid(sudoku):
+    grid = ""
+
+    for i, row in enumerate(sudoku):
+        grid += "|"
+        for digit in row:
+            if digit == 0:
+                grid += "   |"
+            else:
+                grid += " **" + str(digit) + "** |"
+        grid += "\n"
+        if i == 0:
+            grid += "|---|---|---|---|---|---|---|---|---|\n"
+    return(grid)
