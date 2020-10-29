@@ -1,7 +1,10 @@
 # sudoku identifier and solver
 I have built a program to identify and solve a sudoku grid from almost any background. 
 
-You can try it out here: https://lionelssudoku.herokuapp.com/
+You can try it out here: https://lionelssudoku.herokuapp.com/. this runs the app.py with streamlit.
+
+For a jupyter demo there is a demo.ipyn notebook attached as well (try different images from the figures folder)
+
 It still sometimes confuses the numbers, particularly the 1s and 7s, because the algorithm has been trained on north-american handwritten digits. 
 I will fix this when I have time to collect a seperate dataset and retrain the algorithm.
 
